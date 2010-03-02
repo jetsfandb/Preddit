@@ -1,0 +1,32 @@
+[
+    {"source": "app/assistants/stage-assistant.js"},
+    {"source": "app/models/preddit.js"},
+    {
+        "scenes": "Main",
+        "source": "app/assistants/Main-assistant.js"
+    },
+    {
+        "scenes": "ArticleComments",
+        "source": "app/assistants/ArticleComments-assistant.js"
+    },
+    {
+        "scenes": "Preferences",
+        "source": "app/assistants/Preferences-assistant.js"
+    },
+    {
+        "scenes": "ReplyComment",
+        "source": "app/assistants/ReplyComment-assistant.js"
+    },
+    {
+        "scenes": "Subreddits",
+        "source": "app/assistants/Subreddits-assistant.js"
+    },
+    {
+        "scenes": "WebView",
+        "source": "app/assistants/WebView-assistant.js"
+    },
+    {
+        "scenes": "Messages",
+        "source": "app/assistants/Messages-assistant.js"
+    }
+]

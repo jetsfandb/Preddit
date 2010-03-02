@@ -1,0 +1,20 @@
+<div class="palm-row">
+  <div class="palm-row-wrapper">
+    <div class="article-detail">
+      <div class="vote_box link midcol #{score_class}">
+        <div class="arrow #{arrow_up_class}"></div>
+        <div class="score dislikes">#{score_dislikes}</div>
+        <div class="score unvoted">#{score_unvoted}</div>
+        <div class="score likes">#{score_likes}</div>
+        <div class="arrow #{arrow_down_class}"></div>
+      </div>
+      <div class="article-vertical-spacer"></div>
+      <img class="#{thumbnail_class}" src="#{thumbnail}"></img>
+      <span id="#{id}" class="article-text">#{title}</span>
+      <div class="article-spacer"></div>
+    </div>
+    <div class="sub-detail detail1 detail-line"><div>Submitted #{time_elapsed} ago</div><div class="save-button">#{save_text}</div></div>
+    <div class="sub-detail detail2 detail-line">By: <strong class="detail-line">#{author}</strong> to <strong class="detail-line">#{subreddit}</strong><strong class="#{nsfw} detail-line">NSFW</strong></div>
+    <div class="sub-detail detail3 detail-line"><strong id="comment_count" class="detail-line">#{num_comments}</strong> comments</div>
+  </div>
+</div>

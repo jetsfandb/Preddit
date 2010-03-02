@@ -1,0 +1,117 @@
+<!DOCTYPE webproject>
+<webproject>
+  <project type="Local" name="preddit" encoding="utf8" >
+    <upload/>
+    <author>David Brenner</author>
+    <email>jetsfandb@gmail.com</email>
+    <defaultDTD>-//W3C//DTD HTML 4.01 Transitional//EN</defaultDTD>
+    <item url="images/" uploadstatus="1" />
+    <item url="stylesheets/" uploadstatus="1" />
+    <item url="stylesheets/preddit.css" uploadstatus="1" />
+    <item url="appinfo.json" uploadstatus="1" />
+    <item url="icon.png" uploadstatus="1" />
+    <item url="index.html" uploadstatus="1" />
+    <item url="sources.json" uploadstatus="1" />
+    <item url="" uploadstatus="1" />
+    <templates>templates/</templates>
+    <toolbars>toolbars/</toolbars>
+    <item url="templates/" uploadstatus="1" />
+    <item url="toolbars/" uploadstatus="1" />
+    <item url="preddit.session" uploadstatus="1" />
+    <item url="preddit.webprj" uploadstatus="1" />
+    <item url="templates/article-list-item.html" uploadstatus="1" />
+    <annotations/>
+    <item url="images/noimage.png" uploadstatus="1" />
+    <item url="stylesheets/articles.css" uploadstatus="1" />
+    <item url="stylesheets/article-comments.css" uploadstatus="1" />
+    <item url="stylesheets/reddit.css" uploadstatus="1" />
+    <item url="images/reddit/" uploadstatus="1" />
+    <item url="images/reddit/aminidowngray.gif" uploadstatus="1" />
+    <item url="images/reddit/aminidownmod.gif" uploadstatus="1" />
+    <item url="images/reddit/aminiupgray.gif" uploadstatus="1" />
+    <item url="images/reddit/aminiupmod.gif" uploadstatus="1" />
+    <item url="images/reddit/bg-button-add.png" uploadstatus="1" />
+    <item url="images/reddit/bg-button-remove.png" uploadstatus="1" />
+    <item url="images/reddit/clippy-bullet.png" uploadstatus="1" />
+    <item url="images/reddit/continue-thread.png" uploadstatus="1" />
+    <item url="images/reddit/droparrow.gif" uploadstatus="1" />
+    <item url="images/reddit/droparrowgray.gif" uploadstatus="1" />
+    <item url="images/reddit/gradient-button-hover.png" uploadstatus="1" />
+    <item url="images/reddit/gradient-button.png" uploadstatus="1" />
+    <item url="images/reddit/green-check.png" uploadstatus="1" />
+    <item url="images/reddit/red-arrow.png" uploadstatus="1" />
+    <item url="images/reddit/sprite.png" uploadstatus="1" />
+    <item url="images/reddit/tb-loginarrow-left.png" uploadstatus="1" />
+    <item url="images/reddit/throbber.gif" uploadstatus="1" />
+    <item url="images/icon.png" uploadstatus="1" />
+    <item url="templates/comments-list-item.html" uploadstatus="1" />
+    <item url="framework_config.json" uploadstatus="1" />
+    <item url="stylesheets/reply-comment.css" uploadstatus="1" />
+    <item url="templates/subreddits-list-item.html" uploadstatus="1" />
+    <item url="stylesheets/subreddits.css" uploadstatus="1" />
+    <item url="templates/article-list-empty.html" uploadstatus="1" />
+    <item url="images/reddit/mailgray.png" uploadstatus="1" />
+    <item url="images/reddit/mail.png" uploadstatus="1" />
+    <item url="templates/subreddit-get-search.html" uploadstatus="1" />
+    <item url="templates/subreddit-list-empty.html" uploadstatus="1" />
+    <item url="app/" />
+    <item url="app/assistants/" />
+    <item url="app/frameworks/" />
+    <item url="app/models/" />
+    <item url="app/test/" />
+    <item url="app/views/" />
+    <item url="app/assistants/ArticleComments-assistant.js" />
+    <item url="app/assistants/ArticleComments-assistant.js~" />
+    <item url="app/assistants/Main-assistant (dmb-desktop's conflicted copy 2010-02-11).js" />
+    <item url="app/assistants/Main-assistant (dmb-desktop's conflicted copy 2010-02-11).js~" />
+    <item url="app/assistants/Main-assistant.js" />
+    <item url="app/assistants/Main-assistant.js~" />
+    <item url="app/assistants/Messages-assistant.js" />
+    <item url="app/assistants/Preferences-assistant (dmb-desktop's conflicted copy 2010-02-11).js" />
+    <item url="app/assistants/Preferences-assistant (dmb-desktop's conflicted copy 2010-02-11).js~" />
+    <item url="app/assistants/Preferences-assistant.js" />
+    <item url="app/assistants/Preferences-assistant.js~" />
+    <item url="app/assistants/ReplyComment-assistant.js" />
+    <item url="app/assistants/ReplyComment-assistant.js~" />
+    <item url="app/assistants/stage-assistant.js" />
+    <item url="app/assistants/stage-assistant.js~" />
+    <item url="app/assistants/Subreddits-assistant.js" />
+    <item url="app/assistants/Subreddits-assistant.js~" />
+    <item url="app/assistants/ViewPic-assistant.js~" />
+    <item url="app/assistants/WebView-assistant.js" />
+    <item url="app/assistants/WebView-assistant.js~" />
+    <item url="app/frameworks/jquery.js" />
+    <item url="app/frameworks/jquery.json.js" />
+    <item url="app/frameworks/jquery.json.js~" />
+    <item url="app/frameworks/jquery.js~" />
+    <item url="app/frameworks/jquery.reddit.js" />
+    <item url="app/frameworks/jquery.reddit.js~" />
+    <item url="app/frameworks/reddit.js" />
+    <item url="app/frameworks/reddit.js~" />
+    <item url="app/models/preddit.js" />
+    <item url="app/models/preddit.js~" />
+    <item url="app/test/mail.png" />
+    <item url="app/test/mailgray.png" />
+    <item url="app/views/ArticleComments/" />
+    <item url="app/views/Main/" />
+    <item url="app/views/Messages/" />
+    <item url="app/views/Preferences/" />
+    <item url="app/views/ReplyComment/" />
+    <item url="app/views/Subreddits/" />
+    <item url="app/views/WebView/" />
+    <item url="app/views/ArticleComments/ArticleComments-scene.html" />
+    <item url="app/views/ArticleComments/ArticleComments-scene.html~" />
+    <item url="app/views/Main/Main-scene.html" />
+    <item url="app/views/Main/Main-scene.html~" />
+    <item url="app/views/Messages/Messages-scene.html" />
+    <item url="app/views/Preferences/Preferences-scene.html" />
+    <item url="app/views/Preferences/Preferences-scene.html~" />
+    <item url="app/views/ReplyComment/ReplyComment-scene.html" />
+    <item url="app/views/ReplyComment/ReplyComment-scene.html~" />
+    <item url="app/views/Subreddits/Subreddits-scene.html" />
+    <item url="app/views/Subreddits/Subreddits-scene.html~" />
+    <item url="app/views/WebView/WebView-scene.html" />
+    <item url="app/views/WebView/WebView-scene.html~" />
+    <item url="templates/messages-list-item.html" />
+  </project>
+</webproject>

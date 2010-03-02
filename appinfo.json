@@ -1,0 +1,22 @@
+{
+	"id": "com.davidbrenner.preddit",
+	"version": "0.8.0",
+	"vendor": "David Brenner",
+	"type": "web",
+	"main": "index.html",
+	"title": "Preddit",
+	"icon": "icon.png",
+  "smallicon": "images/icon.png",
+  "copyright": "&copy Copyright 2009-2010, David Brenner. All rights reserved.",
+  "support":
+  {
+    "email":
+    {
+      "address": "jetsfandb@gmail.com",
+      "subject": "Preddit Support"
+    },
+    "resources":
+    [
+    ]
+  }
+}

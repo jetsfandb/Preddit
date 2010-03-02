@@ -1,0 +1,96 @@
+#article_info
+{
+  z-index: 20000;
+  background-color: #fff;
+}
+.vote-arrows
+{
+  margin-right: 4px;
+  clear: left;
+}
+.reply-metadata
+{
+  margin-left: 23px;
+}
+#reply_action_area
+{
+  background-color: #fff;
+  clear: left;
+  font-size: 14px;
+}
+#selftext-html-box
+{
+  border: 1px solid #888;
+  margin-left: 4px;
+  margin-right: 4px;
+  clear: left;
+}
+#selftext-html
+{
+ padding-left: 4px;
+ padding-right: 4px;
+}
+#comments-list
+{
+  font-size: 14px;
+}
+
+#comments-list ul
+{
+  list-style-type: none;
+  padding-left: 0px;
+  margin-left: 12px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+#comments-list li
+{
+  margin-left: 0px;
+  margin-right: 2px;
+}
+
+#comments-list .author
+{
+  font-weight: bold;
+  color: #3370ad;
+  margin-right: 8px;
+}
+
+#comments-list .md p
+{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+#comments-list .md ul
+{
+  margin: 0;
+}
+#comments-list .reply-text
+{
+  color: #000;
+/*  border-bottom: solid 1px #000;*/
+}
+
+.reply-action
+{
+  margin-left: 8px;
+  color: #888888;
+}
+
+.first-reply-action
+{
+  margin-left: 0;
+}
+
+.score-label
+{
+  color: #c6c6c6;
+  font-weight: normal;
+}
+.score-value
+{
+  color: #c6c6c6;
+  font-weight: bold;
+}

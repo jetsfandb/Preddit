@@ -1,0 +1,24 @@
+/* Put Application specific CSS here. */
+.title-icon
+{
+  background: url(../icon.png) center left no-repeat;
+}
+
+.palm-page-header .icon
+{
+  background: url(../icon.png) center center no-repeat;
+}
+
+strong
+{
+  font-weight: bold;
+}
+
+.palm-menu-icon.reddit-mail    
+{ 
+  background-image: url(../images/reddit/mail.png); 
+}
+.palm-menu-icon.reddit-no-mail
+{ 
+  background-image: url(../images/reddit/mailgray.png); 
+}

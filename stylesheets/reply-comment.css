@@ -1,0 +1,22 @@
+#comment_text
+{
+  height: 80px;
+}
+#reply_text
+{
+  height: 80px;
+}
+#submit_button
+{
+  float: left;
+  width: 49%
+}
+#format_button
+{
+  float: left;
+  width: 49%
+}
+.usertext.hidden
+{
+  display: none;
+}

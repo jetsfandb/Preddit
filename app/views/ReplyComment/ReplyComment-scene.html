@@ -1,0 +1,109 @@
+<div class="palm-page-header">
+  <div class="palm-page-header-wrapper">
+    <div id="header-title" class="icon"></div>
+    <div class="title">Preddit</div>
+  </div>
+</div>
+
+<div id="comment_group" class="palm-group">
+<div class="palm-group-title" x-mojo-loc=''>Comment</div>
+  <div class="palm-list">
+      <div class="palm-row single">
+      <div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="true">
+        <div class="title">
+              <div id="comment_text" name="comment_text" x-mojo-element="TextField"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="palm-group">
+<div class="palm-group-title" x-mojo-loc=''>Reply</div>
+  <div class="palm-list">
+      <div class="palm-row single">
+      <div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="true">
+        <div class="title">
+              <div id="reply_text" name="reply_text"  x-mojo-element="TextField"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div>
+  <div id="submit_button" x-mojo-element="Button"></div>
+  <div id="format_button" x-mojo-element="Button"></div>
+  <div style="clear: left"></div>
+</div>  
+<div id ="format_help" class="usertext hidden">
+  <table class="markhelp md" style="width: 90%">
+    <tr style="background-color: #ffff99; text-align: center">
+      <td><em>you type:</em></td>
+
+      <td><em>you see:</em></td>
+    </tr>
+
+    <tr>
+      <td>*italics*</td>
+
+      <td><em>italics</em></td>
+    </tr>
+
+    <tr>
+      <td>**bold**</td>
+
+      <td><b>bold</b></td>
+    </tr>
+
+    <tr>
+      <td>[reddit!](http://reddit.com)</td>
+
+      <td><a href="http://reddit.com">reddit!</a></td>
+    </tr>
+
+    <tr>
+      <td>* item 1<br />
+      * item 2<br />
+      * item 3</td>
+
+      <td>
+        <ul>
+          <li>item 1</li>
+
+          <li>item 2</li>
+
+          <li>item 3</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr>
+      <td>&gt; quoted text</td>
+
+      <td>
+        <blockquote>
+          quoted text
+        </blockquote>
+      </td>
+    </tr>
+
+    <tr>
+      <td>Lines starting with four<br />
+       spaces are treated like<br />
+       code:<br />
+      <br />
+      <span class="spaces">&nbsp;&nbsp;&nbsp;&nbsp;</span>if 1 * 2 &lt;
+      3:<br />
+      <span class=
+      "spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>print
+      "hello!"<br /></td>
+
+      <td>
+        Lines starting with four<br />
+        spaces are treated like code:<br />
+        <pre>
+if 1 * 2 &lt; 3:<br />  print "hello!"
+</pre>
+      </td>
+    </tr>
+  </table>
+</div>

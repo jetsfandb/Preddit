@@ -1,0 +1,25 @@
+.subreddit-title
+{
+  font-size: large;
+  color: #369;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.subreddit-desc-button
+{
+  font-size: 16px;
+  border: 1px solid black;
+  background-color: #888;
+  width: 40%;
+}
+.subreddit-desc
+{
+  margin-left: 5px;
+  width: 90%;
+  border: 1px solid #888;
+}
+
+.hide-desc
+{
+  display: none;
+}
